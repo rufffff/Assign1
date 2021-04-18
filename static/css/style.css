@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 320px;
+    height: 400px;
+     background:transparent;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+   color: #fff;
+   padding: 70px 30px;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/scream.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+    position: absolute;
+     top: -50px;
+    left:calc(50% -50px)
+}
+h1{
+    padding:0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+.main label{
+    font-weight: bold;
+}
+.main input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.main button{
+    width: 100%;
+    padding: 8px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+ul li{
+    display: inline;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid white;
+    color: blanchedalmond;
+    transition: 0.5s ease;
+    
+}
+
+ul li a:hover{
+    background: white;
+    color: black;
+}
+.main a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height:30px;
+    color: white;
+}
+
+.main a:hover{
+    color: pink;
+}

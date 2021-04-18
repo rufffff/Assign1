@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/wal.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-variant: small-caps;
+    font-weight: bold;
+    color:white;
+}
+ul{
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+ul li{
+   
+    display: inline;
+
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid white;
+    color:white;
+    transition: 0.5s ease;
+    font-size: 20px;
+    font-variant: small-caps;
+    
+}
+
+ul li a:hover{
+    background:white;
+    color:black;
+}
+
